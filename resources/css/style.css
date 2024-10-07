@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+/* 폰트 스타일 */
+@import url(./fonts.css);
+
+/* 변수 */
+@import url(./variable.css);
+
+/* 공통페이지 스타일 */
+@import url(./common.css);
+
+/* 게시판 스타일 */
+@import url(./board.css);
+
+/* 탭메뉴 스타일 */
+@import url(./tab.css);
+
+/* 헤더 & 푸터 스타일 */
+@import url(./layout.css);
+
+/* 메인페이지 스타일 */
+@import url(./main.css);
+
+/* 서브페이지 스타일 */
+@import url(./sub.css);
+

@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+/* museumClassic */
+@font-face {
+    font-family: 'museumClassic'; font-style: normal; font-weight: 300;
+    src: url(./fonts/museumClassic/museumClassicL.eot);
+    src: url(./fonts/museumClassic/museumClassicL.eot?#iefix) format('embedded-opentype'), url(./fonts/museumClassic/museumClassicL.woff) format('woff'), url(./fonts/museumClassic/museumClassicL.woff2) format('woff2'), url(./fonts/museumClassic/museumClassicL.ttf) format('truetype'), url(./fonts/museumClassic/museumClassicL.otf) format('opentype');
+}
+@font-face {
+    font-family: 'museumClassic'; font-style: normal; font-weight: 500;
+    src: url(./fonts/museumClassic/museumClassicM.eot);
+    src: url(./fonts/museumClassic/museumClassicM.eot?#iefix) format('embedded-opentype'), url(./fonts/museumClassic/museumClassicM.woff) format('woff'), url(./fonts/museumClassic/museumClassicM.woff2) format('woff2'), url(./fonts/museumClassic/museumClassicM.ttf) format('truetype'), url(./fonts/museumClassic/museumClassicM.otf) format('opentype');
+}
+@font-face {
+    font-family: 'museumClassic'; font-style: normal; font-weight: 700;
+    src: url(./fonts/museumClassic/museumClassicB.eot);
+    src: url(./fonts/museumClassic/museumClassicB.eot?#iefix) format('embedded-opentype'), url(./fonts/museumClassic/museumClassicB.woff) format('woff'), url(./fonts/museumClassic/museumClassicB.woff2) format('woff2'), url(./fonts/museumClassic/museumClassicB.ttf) format('truetype'), url(./fonts/museumClassic/museumClassicB.otf) format('opentype');
+}
+
+
+
+/* Pretendard */
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 100;
+    src: url(./fonts/pretendard/Pretendard-Thin.woff) format('woff'), url(./fonts/pretendard/Pretendard-Thin.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-Thin.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 200;
+    src: url(./fonts/pretendard/Pretendard-ExtraLight.woff) format('woff'), url(./fonts/pretendard/Pretendard-ExtraLight.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-ExtraLight.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 300;
+    src: url(./fonts/pretendard/Pretendard-Light.woff) format('woff'), url(./fonts/pretendard/Pretendard-Light.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-Light.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 400;
+    src: url(./fonts/pretendard/Pretendard-Regular.woff) format('woff'), url(./fonts/pretendard/Pretendard-Regular.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 500;
+    src: url(./fonts/pretendard/Pretendard-Medium.woff) format('woff'), url(./fonts/pretendard/Pretendard-Medium.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-Medium.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 600;
+    src: url(./fonts/pretendard/Pretendard-SemiBold.woff) format('woff'), url(./fonts/pretendard/Pretendard-SemiBold.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-SemiBold.otff) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 700;
+    src: url(./fonts/pretendard/Pretendard-Bold.woff) format('woff'), url(./fonts/pretendard/Pretendard-Bold.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 800;
+    src: url(./fonts/pretendard/Pretendard-ExtraBold.woff) format('woff'), url(./fonts/pretendard/Pretendard-ExtraBold.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-ExtraBold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Pretendard'; font-style: normal; font-weight: 900;
+    src: url(./fonts/pretendard/Pretendard-Black.woff) format('woff'), url(./fonts/pretendard/Pretendard-Black.woff2) format('woff2'), url(./fonts/pretendard/Pretendard-Black.otf) format('opentype');
+}

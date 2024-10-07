@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+* { margin: 0; padding: 0; border: 0; box-sizing: border-box; }
+:before, :after { box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; box-sizing:border-box; }
+section, nav, article, aside, header, footer { display:block; }
+
+caption, legend { position: absolute; left: -9999px; margin: 0 !important; width: 1px; height: 1px; line-height: 0; font-size: 0; overflow: hidden; }
+
+ol, ul { list-style: none; }
+a { color: #000; text-decoration: none; }
+button { cursor: pointer; }
+table { table-layout: fixed; width: 100%; border-collapse: collapse; border-spacing: 0; }
+img { vertical-align: top; }
+i, address { font-style:normal; }
+
+
+.MAT0 { margin-top: 0px !important; }
+.MAT10 { margin-top: 10px !important; }
+.MAT15 { margin-top: 15px !important; }
+.MAT20 { margin-top: 20px !important; }
+.MAT25 { margin-top: 25px !important; }
+.MAT30 { margin-top: 30px !important; }
+.MAT35 { margin-top: 35px !important; }
+.MAT40 { margin-top: 40px !important; }
+.MAT45 { margin-top: 45px !important; }
+.MAT50 { margin-top: 50px !important; }
+.MAT55 { margin-top: 55px !important; }
+.MAT60 { margin-top: 60px !important; }
+
+.MAB10 { margin-bottom: 10px !important; }
+.MAB15 { margin-bottom: 15px !important; }
+.MAB20 { margin-bottom: 20px !important; }
+.MAB25 { margin-bottom: 25px !important; }
+.MAB30 { margin-bottom: 30px !important; }
+.MAB35 { margin-bottom: 35px !important; }
+.MAB40 { margin-bottom: 40px !important; }
+.MAB45 { margin-bottom: 45px !important; }
+.MAB50 { margin-bottom: 50px !important; }
+.MAB55 { margin-bottom: 55px !important; }
+.MAB60 { margin-bottom: 60px !important; }
+
+
+*, body { font-family: var(--font-family), sans-serif; line-height: var(--line-height); font-size: var(--font-size); font-weight: var(--font-weight); }
+body { min-width: 320px; transform-origin: 50% 0%; overflow-y: scroll; }
+
+.wrapper { margin: 0 auto; max-width: 1400px; }
+
+@media (max-width: 1440px) {
+    .wrapper { max-width: none; padding-left: 20px; padding-right: 20px; }
+}
+@media (max-width: 424px) {
+    .wrapper { padding-left: 15px; padding-right: 15px; }
+}
+
+
+/* 웹접근성 */
+.sr-only { position: absolute; left: -9999px; margin: 0 !important; width: 1px; height: 1px; line-height: 0; font-size: 0; overflow: hidden; }
+.web-acc { position: absolute; margin: -1px; width: 1px; height: 1px; overflow: hidden; clip-path: polygon(0 0, 0 0, 0 0); }
+
+
+/* swiper */
+.swiperWrap { position: relative; }
+.swiperWrap .swiper-container { position: static; }
+.swiperWrap button { background-color: transparent; }
+
+
+/* skip Nav */
+#skipNav { position: relative; width: 100%; overflow: hidden; }
+#skipNav ul { width: 100%; }
+#skipNav a { display: block; margin-bottom: -1px; height: 1px; font-size: 16px; color: #fff; text-align: center; overflow: hidden; }
+#skipNav a:hover,
+#skipNav a:focus,
+#skipNav a:active { display: block; padding: 3px 0; height: 35px; background: none repeat scroll 0 0 #333; }
+

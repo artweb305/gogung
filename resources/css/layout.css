@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body.bg { background: url(../images/main/main_background.svg) no-repeat; background-size: cover; }
+
+
+/*########## header ##########*/
+#header { display: flex; align-items: center; margin-top: 32px; padding: 0 40px; }
+
+#logo {}
+#logo a { font-size: 30px; color: #0e0e0e; font-weight: 500; font-family: 'museumClassic'; }
+
+#util { display: flex; align-items: center; gap: 15px; margin-left: auto; }
+#util > li > a { display: block; width: 35px; aspect-ratio: 1; font-size: 0; }
+#util .language { position: relative; }
+#util .language > a { background: url(../images/common/ico-language.svg) no-repeat center / 24px; }
+#util .language ul { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); }
+#util .language ul li {}
+#util .language ul li a { text-transform: uppercase; }
+#util .nav_btn {}
+#util .nav_btn a { background: url(../images/common/ico-menu.svg) no-repeat center / 26px; }
+
+
+
+
+
+/*########## footer ##########*/
+footer { margin-top: auto; margin-bottom: 32px; }
+#footer .copy { line-height: 1.4; font-size: 20px; color: #111; text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
